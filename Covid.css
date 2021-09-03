@@ -1,0 +1,108 @@
+.mainbody {
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    align-items: center;
+    
+}
+.vinay {
+    background-color:blanchedalmond;
+    display: grid;
+    height: 200px;
+    position: absolute;
+    content: '';
+    clip-path: circle(30px 0px right 40%);
+    
+    text-align: center;
+    text-decoration: rgb(8, 5, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, p, h2 {
+    color:black;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_main{
+    height: 200px;
+    width: 200px;
+    padding: auto;
+    margin: auto;
+    box-shadow: 20px 20px 20px;
+}
+
+
+.inner1 {
+   height: 100px;
+   width: 200px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(216, 16, 16);
+}
+.inner2 {
+    height: 100px;
+   width: 200px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(16, 209, 216);
+}
+.inner3 {
+    height: 100px;
+   width: 200px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(46, 16, 216);
+}
+.inner4 {
+    height: 100px;
+   width: 200px;
+    margin: 25px;
+    align-items: center;
+    background-color: rgb(119, 16, 216);
+}
+.inner5 {
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    background-color: rgb(16, 216, 59);
+}
+
+.card_name{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.card_name span {
+    font-size: 15px;
+}
+
+.card_total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ul li{
+    display: grid;
+    grid-template-columns: 20% auto;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transform: rotateY(-10deg) rotateX(15deg);
+    position: relative;
+    border-bottom: 4px solid(0,0,0,0.2);
+mix-blend-mode: normal;
+}
+
+ul li:hover{
+    transform: rotateY(15deg) rotateX(-10deg) scale(1.1);
+    transition: transform 0.7s ease-out;
+    z-index: 3;
+    mix-blend-mode: normal;
+}
